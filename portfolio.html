@@ -16,12 +16,12 @@
             <div class="header__wrap">
                 <a href="./index.html" class="logo header__logo"> <span class="logo--blue">Web</span> Studio</a>
                 <nav>
-                    <ul class="site-nav site-nav--accent header_site-nav">
+                    <ul class="site-nav header_site-nav">
                         <li class="site-nav__item">
-                            <a class="site-nav__link" href=./index.html>Студия</a>
+                            <a class="site-nav__link site-nav__link--current" href=./index.html>Студия</a>
                         </li>
-                        <li class="site-nav__item ">
-                            <a class="site-nav__link site-nav__link--current" href="./portfolio.html">Портфолио</a>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="./portfolio.html">Портфолио</a>
                         </li>
                         <li class="site-nav__item">
                             <a class="site-nav__link" href="">Контакты</a>
@@ -30,12 +30,12 @@
                 </nav>
             </div>
             <div class="contacts__wraper">
-                <a href="mailto:info@devstudio.com" class="contacts  contacts--accent ">
+                <a href="mailto:info@devstudio.com" class="contacts">
                     <svg class="icon-envelope" width=16 height=12>
                    <use href="./images/symbol-defs.svg#icon-envelope"  ></use>
                 </svg> info@devstudio.com
                 </a>
-                <a href="tel:380961111111" class=" contacts contacts--accent">
+                <a href="tel:380961111111" class="contacts">
                     <svg class="icon-phone" width=10 height=15>
                    <use href="./images/symbol-defs.svg#icon-phone" class="icon-envelope" ></use>
                 </svg> +38 096 111 11 11</a>
@@ -173,7 +173,7 @@
                     <ul class="social-network__footer">
                         <li>
                             <a href="https://www.instagram.com/ " class="social-network__link social-network__link--dark" aria-label="Инстаграм ">
-                                <svg width=20 heigh=20>
+                                <svg width=20 height=20>
                                         <use href="./images/symbol-defs.svg#icon-instagram"  ></use>
                                     </svg>
                             </a>
@@ -207,7 +207,11 @@
                     <ul class="submit__list">
                         <li class="submit__item"><input type="email" value="E-mail" class="submit__mail ">
                         </li>
-                        <li><button class="button submit__button ">Подписаться</button></li>
+                        <li><button class="button submit__button ">
+                            Подписаться<svg class="submit__icon" width=24 height=24>
+                                <use href="./images/symbol-defs.svg#icon-plane"></use>
+                            </svg>
+                        </button></li>
                     </ul>
                 </div>
             </div>
