@@ -719,6 +719,7 @@
 
 .project-list__link {
     text-decoration: none;
+    color: #212121;
 }
 
 .project-list__item:hover,
